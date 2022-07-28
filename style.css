@@ -1,0 +1,97 @@
+
+#header {
+    display: flex;
+}
+
+.headerbtn {
+    border-radius: 12px;
+    transition-duration: 0.4s;
+    padding: 20px;
+    font-size: 12px;
+    margin: 5px;
+}
+
+.player1Name {
+    visibility: visible;
+}
+
+.player2Name {
+    visibility: var(--hidden);
+}
+
+.playField {
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    align-items: center;
+    margin: 60px;
+}
+
+.playField2 {
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    align-items: center;
+    margin: 60px;
+}
+
+.mysteryNumber {
+    height: 80px;
+    width: 80px;
+    border-radius: 12px;
+    border-color: #000000;
+    border-width: 2px;
+    border-style: solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 4px;
+    flex-shrink: 0;
+}
+
+#calcButtons {
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+.calcNumber {
+    height: 80px;
+    width: 80px;
+    border-radius: 12px;
+    border-color: #000000;
+    border-width: 2px;
+    border-style: solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 4px;
+    flex-shrink: 0;
+}
+
+.calcNumber:focus {
+    background-color: grey;
+}
+
+.calcOperator {
+    height: 80px;
+    width: 80px;
+    border-radius: 12px;
+    border-color: #000000;
+    border-width: 2px;
+    border-style: solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 4px;
+    flex-shrink: 0;
+}
+
+.calcNumber:focus {
+    background-color: grey;
+}
+
+#rowOne, #rowTwo, #rowThree, #rowFour {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+}
